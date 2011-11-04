@@ -14,7 +14,8 @@ end
 group :test do
   gem 'capybara'
   gem 'capybara-webkit', :git => "https://github.com/parndt/capybara-webkit.git"
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :git => "https://github.com/cucumber/cucumber-rails.git"
+  gem 'cucumber'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
 end
