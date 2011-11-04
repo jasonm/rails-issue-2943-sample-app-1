@@ -3,16 +3,12 @@ development:
   encoding: unicode
   database: fails_development
   pool: 5
-  username: root
-  password:
 
 test: &test
   adapter: postgresql
   encoding: unicode
   database: fails_test
   pool: 5
-  username: root
-  password:
 
 cucumber:
   <<: *test
